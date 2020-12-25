@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
                     String lat = String.format("%.2f", latD);
 
                     double longD  = Double.valueOf(corr_obj.getDouble("lon"));
-                    String lon = String.format("%.2f", latD);
+                    String lon = String.format("%.2f", longD);
 
                     tempTextView.setText(temperature);
                     discriptionTextView.setText(description);
